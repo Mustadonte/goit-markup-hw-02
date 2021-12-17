@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Студия</title>
 </head>
@@ -11,21 +16,42 @@
     <!-- Шапка -->
     <header>
         <nav>
-            <a href="/">Web Studio</a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Контакты</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
+            <a href="/" class="link"><span class="logo"><span class="logo-accent">Web</span>Studio</span></a>
+            <ul class="list">
+                <li><a href="./index.html" class="nav-list-item">Студия</a></li>
+                <li><a href="" class="nav-list-item">Контакты</a></li>
+                <li><a href="./portfolio.html" class="nav-list-item current">Портфолио</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" >+38 096 111 11 11</a></li>
+        <ul class="list">
+            <li><a href="mailto:info@devstudio.com" class="link nav-contacts" lang="en">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link nav-contacts">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <!--Основная часть-->
     <main>
-       <p>Сраница портфолио</p>
+    <section>
+        <h2>Портфолио</h2>
+        <ul class="list">
+            <li><button type="button" class="portfolio-list-btn all">Все</button></li>
+            <li><button type="button" class="portfolio-list-btn">Веб-сайты</button></li>
+            <li><button type="button" class="portfolio-list-btn">Приложения</button></li>
+            <li><button type="button" class="portfolio-list-btn">Дизайн</button></li>
+            <li><button type="button" class="portfolio-list-btn">Маркетинг</button></li>
+        </ul>
+        <ul class="list">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </section>
     </main>
     <!--Подвал-->
     <footer>
