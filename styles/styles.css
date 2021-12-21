@@ -1,15 +1,22 @@
 :root {
   --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --third-text-color: #fff;
   --accent-color: #2196f3;
+  --btn-bgc-color: #2196f3;
   --primary-font: "Roboto", sans-serif;
   --primary-bgc: #fff;
-  --secondary-text-color: #757575;
+  --secondary-bgc: #2f303a;
+  --primary-font-size: 14px;
+  --primary-letter-spacing: 0.03em;
 }
 
 body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
   background-color: var(--primary-bgc);
+  font-size: var(--primary-font-size);
+  letter-spacing: var(--primary-letter-spacing);
 }
 
 /* -----------Header----------- */
@@ -19,7 +26,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
@@ -66,8 +72,8 @@ body {
 
 /* -----------hero----------- */
 .hero {
-  background-color: #2f303a;
-  color: #fff;
+  background-color: var(--secondary-bgc);
+  color: var(--third-text-color);
 }
 
 .hero-title {
@@ -84,7 +90,8 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
+  background-color: var(--btn-bgc-color);
+  color: inherit;
 }
 
 .hero-btn:hover,
@@ -99,21 +106,17 @@ body {
 .team-title {
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .features-subject {
   font-weight: 700;
-  font-size: 14px;
+  font-size: var(--primary-font-size);
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features-desc {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -125,16 +128,14 @@ body {
 
 .team-names {
   font-weight: 500;
-  font-weight: 16px;
+  font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
+  letter-spacing: var(--primary-letter-spacing);
 }
 
 .team-positions {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -151,15 +152,15 @@ body {
 
 .all {
   font-family: var(--primary-font);
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--btn-bgc-color);
+  color: var(--third-text-color);
 }
 
 .portfolio-list-btn:hover,
 .portfolio-list-btn:focus {
   font-family: var(--primary-font);
-  background-color: #2196f3;
-  color: #fff;
+  background-color: var(--btn-bgc-color);
+  color: var(--third-text-color);
 }
 
 .hidden {
@@ -182,20 +183,19 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-bgc);
 }
 
 .footer-logo {
-  color: #fff;
+  color: var(--third-text-color);
 }
 
 .footer-link {
-  color: #fff;
+  color: var(--third-text-color);
 }
 
 .footer-contacts {
@@ -204,11 +204,10 @@ body {
 
 .footer-contacts:hover,
 .footer-contacts:focus {
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 
 .footer-list {
-  font-size: 14px;
   font-style: normal;
   letter-spacing: 0.03em;
   line-height: 1.71;
