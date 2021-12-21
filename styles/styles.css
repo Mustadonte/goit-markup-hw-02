@@ -71,7 +71,7 @@ body {
 }
 /* -----------index.html------------ */
 
-/* -----------hero----------- */
+/* -----------index.html/hero----------- */
 .hero {
   background-color: var(--secondary-bgc);
   color: var(--third-text-color);
@@ -101,7 +101,7 @@ body {
   cursor: pointer;
 }
 
-/* ---------- Features ---------- */
+/* ---------- index.html/features ---------- */
 
 .features-title,
 .team-title {
@@ -121,7 +121,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* ---------- Team ----------*/
+/* ---------- index.html/Team ----------*/
 
 .team {
   background-color: var(--third-bgc);
@@ -147,7 +147,7 @@ body {
   font-size: 16px;
   line-height: 1.625;
   font-weight: 500;
-  background-color: var(--third-bgc)
+  background-color: var(--third-bgc);
   cursor: pointer;
 }
 
@@ -186,6 +186,8 @@ body {
   line-height: 1.87;
   color: var(--secondary-text-color);
 }
+
+/* ---------- Footer ---------- */
 
 .footer {
   background-color: var(--secondary-bgc);
