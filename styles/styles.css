@@ -7,6 +7,7 @@
   --primary-font: "Roboto", sans-serif;
   --primary-bgc: #fff;
   --secondary-bgc: #2f303a;
+  --third-bgc: #f5f4fa;
   --primary-font-size: 14px;
   --primary-letter-spacing: 0.03em;
 }
@@ -123,7 +124,7 @@ body {
 /* ---------- Team ----------*/
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--third-bgc);
 }
 
 .team-names {
@@ -146,7 +147,7 @@ body {
   font-size: 16px;
   line-height: 1.625;
   font-weight: 500;
-  background-color: #f5f4fa;
+  background-color: var(--third-bgc)
   cursor: pointer;
 }
 
